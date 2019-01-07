@@ -343,6 +343,15 @@ class PhoenixAdultAgent(Agent.Movies):
                     results = PAsearchSites.sitePornPros.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
 
             ###############
+            ## SpyFam
+            ###############
+            if siteNum == 342:
+                if searchAll or searchSiteID == 342:
+                    results = PAsearchSites.siteSpyFam.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
+
+
+
+            ###############
             ## DigitalPlayground
             ###############
             if siteNum == 328:
