@@ -385,7 +385,7 @@ searchSites[338] = ["Massage Rooms","Massage Rooms","https://www.sexyhub.com","h
 searchSites[339] = ["MomXXX","MomXXX","https://www.sexyhub.com","https://www.sexyhub.com/search/videos/"]
 searchSites[340] = ["FakeHub","FakeHub","https://www.fakehub.com","https://www.fakehub.com/search/videos/"]
 searchSites[341] = ["Big Cock Bully","Big Cock Bully","https://tour.naughtyamerica.com","https://tour.naughtyamerica.com/search?term="]
-searchSites[342] = ["SpyFam","SpyFam","https://www.spyfam.com","https://spyfam.com/video/"]
+searchSites[342] = ["SpyFam","SpyFam","https://www.spyfam.com","https://spyfam.com/girls/"]
 
 
 def getSearchBaseURL(siteID):

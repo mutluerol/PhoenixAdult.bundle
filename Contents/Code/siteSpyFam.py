@@ -1,13 +1,13 @@
 import PAsearchSites
 import PAgenres
 def search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate,searchAll,searchSiteID):
-    url = 'https://spyfam.com/video/' + searchTitle.lower().replace(" ","-")
+    url = 'https://spyfam.com/girls/' + searchTitle.lower().replace(" ","-")
     searchResults = HTML.ElementFromURL(url)
 
     searchResult = searchResults.xpath('//div[@class="details col-sm-6 col-md-3 order-md-2 mb-2"]')[0]
     titleNoFormatting = searchResult.xpath('.//div[@class="row"]//div[@class="col-6 col-md-12"]//h1')[0].text_content()
     Log("Result Title: " + titleNoFormatting)
-    cur = "/video/" + searchTitle.lower().replace(" ","-")
+    cur = "/girls/" + searchTitle.lower().replace(" ","-")
     curID = cur.replace('/','_')
     Log("ID: " + curID)
     releasedDate = searchResult.xpath('.//div[@class="row"]//div[@class="col-6 col-md-12"]//p')[0].text_content()
